@@ -1,0 +1,118 @@
+# _data/research.yml
+
+# 主页面总体介绍
+introduction: "Our group is dedicated to advancing the frontiers of embodied intelligence, aiming to build agents capable of autonomous perception, decision-making, and interaction in open, dynamic, and complex physical environments. We focus on breaking through the limitations of traditional static perception, exploring how to realize more general, active, and efficient embodied intelligence systems within the 'perception–decision–action–feedback' closed loop. This enables them to flexibly adapt to the complex and ever-changing real world, achieving general, active, efficient environmental perception and precise navigation."
+
+# 研究方向列表
+research_areas:
+  - id: "foundation"
+    name: "Foundation Models"
+    summary: ""
+    image: "/images/research_img/10.jpg"
+    description: "We develop foundation models that enable robots to understand and interact with their environment through scalable learning from diverse datasets."
+    
+    # 详细介绍页面的内容组
+    content_groups:
+      - title: "Vision-Language-Action Models"
+        image: "/images/research_img/vla_model.jpg"
+        caption: "Our VLA model architecture connecting visual observations, language instructions, and robot actions."
+        description: |
+          We develop vision-language-action models that ground language instructions in visual perception and robot control. These models enable robots to follow natural language commands and perform complex tasks in unstructured environments.
+
+          Our approach leverages large-scale pre-training on diverse datasets, allowing the models to transfer knowledge across different robotic platforms and task domains.
+          
+          The models demonstrate strong zero-shot generalization capabilities, requiring minimal task-specific fine-tuning for new applications.
+
+      - title: "Multi-Modal Representation Learning"
+        image: "/images/research_img/multimodal.jpg"
+        caption: "Learning joint representations from visual, tactile, and proprioceptive inputs."
+        description: |
+          We investigate methods for learning unified representations from multiple sensory modalities including vision, touch, and proprioception. This enables robots to build comprehensive world models that capture different aspects of physical interaction.
+
+          Our representation learning framework allows robots to reason about object properties, physical dynamics, and task constraints in a shared latent space.
+
+          These representations have shown improved performance on manipulation tasks that require delicate contact and force control.
+
+      - title: "Scalable Imitation Learning"
+        image: "/images/research_img/imitation.jpg"
+        caption: "Learning from diverse human demonstrations at scale."
+        description: |
+          We develop scalable imitation learning algorithms that can leverage large datasets of human demonstrations. Our methods address distribution shift and compounding errors through adversarial training and dynamics-aware regularization.
+
+          The framework supports learning from suboptimal demonstrations and can incorporate human feedback for continuous improvement.
+
+          We've demonstrated these methods on complex manipulation tasks requiring long-horizon planning and precise control.
+
+  - id: "interactive"
+    name: "Interactive Learning"
+    summary: ""
+    image: "/images/research_img/11.jpg"
+    description: "We create algorithms that allow robots to learn new skills rapidly through targeted interactions and human guidance."
+    
+    content_groups:
+      - title: "Active Learning for Robotics"
+        image: "/images/research_img/active_learning.jpg"
+        caption: "Robots actively select informative interactions to accelerate learning."
+        description: |
+          We develop active learning methods that enable robots to strategically select which interactions or queries will most efficiently improve their performance. This approach dramatically reduces the amount of data required for learning new tasks.
+
+          Our algorithms balance exploration of uncertain states with exploitation of known strategies, optimizing the learning process.
+
+          Applications include learning manipulation skills, navigation policies, and object recognition in novel environments.
+
+      - title: "Human-in-the-Loop Learning"
+        image: "/images/research_img/human_loop.jpg"
+        caption: "Seamlessly integrating human feedback into the robot learning process."
+        description: |
+          We design systems that allow non-expert humans to provide effective feedback to robots during learning. This includes preference learning, correction signals, and demonstration interfaces.
+
+          Our research addresses challenges in interpreting ambiguous human feedback and aligning robot behavior with human intentions.
+
+          The resulting systems enable rapid skill acquisition and personalization to individual user preferences.
+
+      - title: "Multi-Robot Knowledge Transfer"
+        image: "/images/research_img/multi_robot.jpg"
+        caption: "Sharing learned knowledge across heterogeneous robot platforms."
+        description: |
+          We investigate methods for transferring learned policies and representations across different robot morphologies and capabilities. This enables fleets of heterogeneous robots to benefit from collective experience.
+
+          Our approach addresses domain adaptation challenges arising from differences in sensors, actuators, and dynamics.
+
+          We've demonstrated successful transfer between manipulators with different degrees of freedom and between wheeled and legged platforms.
+
+  - id: "human-robot"
+    name: "Human-Robot Collaboration"
+    summary: ""
+    image: "/images/research_img/12.jpg"
+    description: "We develop frameworks that enable robots to understand human intentions and collaborate seamlessly with people in shared tasks."
+    
+    content_groups:
+      - title: "Intention Recognition and Prediction"
+        image: "/images/research_img/intention.jpg"
+        caption: "Predicting human actions and goals from partial observations."
+        description: |
+          We develop models that enable robots to infer human intentions from observable behavior, allowing for proactive assistance and seamless collaboration. Our methods combine Bayesian inference with deep learning for robust prediction.
+
+          The system can reason about hierarchical goals and subgoals, adapting its behavior based on its understanding of human objectives.
+
+          Applications include collaborative assembly, co-manipulation tasks, and assistive robotics.
+
+      - title: "Safe Physical Interaction"
+        image: "/images/research_img/safety.jpg"
+        caption: "Ensuring safety during physical human-robot contact."
+        description: |
+          We design control frameworks that guarantee safety during physical human-robot interaction. Our methods include real-time collision detection, compliant control, and risk-aware planning.
+
+          The research addresses both intentional physical guidance and unexpected contacts, ensuring robot behavior remains safe under all conditions.
+
+          We've validated these approaches in manufacturing, healthcare, and domestic assistance scenarios.
+
+      - title: "Shared Autonomy"
+        image: "/images/research_img/autonomy.jpg"
+        caption: "Dynamic allocation of control between human and robot partners."
+        description: |
+          We develop shared autonomy systems that dynamically adjust the level of robot assistance based on context, user performance, and stated preferences. This enables fluid collaboration where control authority shifts appropriately.
+
+          Our frameworks incorporate models of human capability and preference to provide the right type and amount of assistance.
+
+          Applications include teleoperation, assistive devices, and complex task execution where human expertise complements robotic capabilities.

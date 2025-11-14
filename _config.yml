@@ -1,0 +1,26 @@
+# Site settings
+title:       Embodied Perception and Planning Group
+baseurl:     ""
+url:         "https://lk-aa.github.io"
+# url:         "http://127.0.0.1:4000/"
+# url:         "https://viplepp.github.io/"
+header_pages:
+ - intro.html
+ - research.html
+ - publications.html
+
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     4
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+# https://github.com/jekyll/jekyll/issues/2938
+exclude:
+  - Gemfile
+  - Gemfile.lock

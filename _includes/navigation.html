@@ -1,0 +1,22 @@
+{% assign default_paths = site.pages | map: "path" %}
+{% assign page_paths = site.header_pages | default: default_paths %}
+
+{% for path in page_paths %}
+    
+    {% assign item = site.pages | where: "path", path | first %}
+    
+    {% if item.title %}
+        {% comment %}特殊逻辑: 主页激活Lab Intro, research_detail页面激活Research{% endcomment %}
+        {% if page.url == '/' and item.title == 'Lab Intro' %}
+            <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% elsif page.layout == 'research_detail' and item.title == 'Research' %}
+            <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% elsif page.title == item.title %}
+            <a class="nav-active" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% else %}
+            <a class="nav-link" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endif %}
+    {% endif %}
+
+    
+{% endfor %}

@@ -1,0 +1,256 @@
+---
+layout: default
+title: Lab Intro
+---
+
+<div class="home-content">
+    <!-- 轮播图区域 -->
+    <div class="carousel-section">
+    <div class="carousel-container">
+        <div class="carousel">
+        {% for photo in site.data.photo.photos %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+            <img src="{{ photo.image }}" alt="{{ photo.description }}" loading="lazy">
+            <div class="carousel-caption">{{ photo.description }}</div>
+            </div>
+        {% endfor %}
+        </div>
+        <button class="carousel-prev">‹</button>
+        <button class="carousel-next">›</button>
+    </div>
+    <!-- 将指示器移到图片外部 -->
+    <div class="carousel-indicators">
+        {% for photo in site.data.photo.photos %}
+        <button class="indicator {% if forloop.first %}active{% endif %}" data-slide-to="{{ forloop.index0 }}"></button>
+        {% endfor %}
+    </div>
+    </div>
+
+    <!-- Laboratory Introduction Section -->
+    <div class="intro-section">
+    <div class="welcome-message">
+        <h1>Welcome</h1>
+        <p>Welcome to the Embodied Perception and Planning Group (EPP), part of the Visual Information Process and Learning Group (VIPL) under the Key Laboratory of Intelligent Information Processing at the Institute of Computing Technology (ICT), Chinese Academy of Sciences (CAS). Our laboratory is led by Professor Meina Kan and is dedicated to cutting-edge research in the field of embodied intelligence.</p>
+    </div>
+    
+    <div class="lab-introduction">
+        <h1>Introduction</h1>
+        <p>The Embodied Perception and Planning Group focuses on researching how intelligent agents perceive, understand, and plan actions through interaction with the environment. Our research spans multiple fields including computer vision, robotics, reinforcement learning, and more, aiming to develop intelligent systems capable of adapting to complex environments. The laboratory adheres to open and innovative research principles, providing an excellent research environment for graduate students and researchers.</p>
+    </div>
+    
+    <div class="research-focus">
+        <h1>Research Directions</h1>
+        <p>Our main research directions include: embodied perception, multimodal learning, robot autonomous navigation, human-computer interaction, and more. By combining advanced technologies such as deep learning and reinforcement learning, we are committed to solving perception, cognition, and decision-making problems for intelligent agents in the real world.</p>
+    </div>
+    </div>
+</div>
+
+<style>
+.home-content {
+    margin-top: 20px;
+}
+
+.carousel-section {
+    position: relative;
+    width: 100%;
+    max-width: 42rem;
+    margin: 0.0rem auto;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 42rem;
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.carousel {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    display: none;
+    position: relative;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 8px 0;
+    text-align: center;
+    font-size: 12px;
+}
+
+.carousel-prev, .carousel-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.carousel-prev {
+    left: 10px;
+}
+
+.carousel-next {
+    right: 10px;
+}
+
+/* 指示器移到图片外部，设置为小圆圈 */
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 42rem;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #999;
+    background: transparent;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.indicator.active {
+    background: #666;
+    border-color: #666;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0.8; }
+    to { opacity: 1; }
+}
+
+.intro-section {
+    text-align: left;
+    max-width: 42rem;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.welcome-message, .lab-introduction, .research-focus {
+    /* margin-bottom: 0rem; */
+    text-align: left;
+}
+
+/* .welcome-message p, .lab-introduction p, .research-focus p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    text-align: left;
+} */
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.6;
+    margin: 0 0 1rem 0;
+    color: #000000;
+    letter-spacing: 0.02em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: #3366cc;
+    border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+    .carousel-section {
+    height: auto;
+    }
+    
+    .research-highlights {
+    grid-template-columns: 1fr;
+    }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const carousel = document.querySelector('.carousel');
+    const items = document.querySelectorAll('.carousel-item');
+    const indicators = document.querySelectorAll('.indicator');
+    const prevBtn = document.querySelector('.carousel-prev');
+    const nextBtn = document.querySelector('.carousel-next');
+    let currentIndex = 0;
+    
+    function showSlide(index) {
+    items.forEach(item => item.classList.remove('active'));
+    indicators.forEach(indicator => indicator.classList.remove('active'));
+    
+    items[index].classList.add('active');
+    indicators[index].classList.add('active');
+    currentIndex = index;
+    }
+    
+    function nextSlide() {
+    let nextIndex = (currentIndex + 1) % items.length;
+    showSlide(nextIndex);
+    }
+    
+    function prevSlide() {
+    let prevIndex = (currentIndex - 1 + items.length) % items.length;
+    showSlide(prevIndex);
+    }
+    
+    nextBtn.addEventListener('click', nextSlide);
+    prevBtn.addEventListener('click', prevSlide);
+    
+    indicators.forEach((indicator, index) => {
+    indicator.addEventListener('click', () => showSlide(index));
+    });
+    
+    // 自动轮播
+    setInterval(nextSlide, 5000);
+});
+</script>

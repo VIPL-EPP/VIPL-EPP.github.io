@@ -1,0 +1,563 @@
+# 实验室出版物数据
+# - title: "title"
+#   authors: "authors"
+#   venue: "Conference on Neural Information Processing Systems (NeurIPS), December 2025"
+#   year: 2025
+#   pdf: "/papers/icra2024.pdf"
+#   code: "https://github.com/lab/robot-grasping"
+#   website: "/slides/icra2024.pdf"
+#   bibtex: |
+#     @inproceedings{zhang2024robot,
+#       title={基于深度强化学习的机器人抓取策略研究},
+#       author={张教授 and 李博士 and 王博士},
+#       booktitle={国际机器人学会议},
+#       year={2024},
+#       pages={1--8}
+#     }
+
+- title: "eLabrador: A wearable navigation system for visually impaired individuals"
+  authors: "Meina Kan, Lixuan Zhang, Hao Liang, Boyuan Zhang, Minxue Fang, Dongyang Liu, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Transactions on Automation Science and Engineering (TASE), 2025"
+  year: 2025
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2025TASE_eLabrador.pdf"
+
+- title: "BLPSeg: Balance the Label Preference in Scribble-Supervised Semantic Segmentation"
+  authors: "Yude Wang, Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Trans. on Image Processing (TIP), 2023"
+  year: 2023
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2023TIP_BLPSeg.pdf"
+
+- title: "Personalized Convolution for Face Recognition"
+  authors: "Chunrui Han, Shiguang Shan, Meina Kan, Shuzhe Wu, Xilin Chen"
+  venue: "International Journal of Computer Vision (IJCV), 2022"
+  year: 2022
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2022IJCVPersonalizedCNN.pdf"
+
+- title: "Image style disentangling for instance-level facial attribute transfer"
+  authors: "Xuyang Guo, Meina Kan, Zhenliang He, Xiguang Song, Shiguang Shan"
+  venue: "Computer Vision and Image Understanding (CVIU), 2021"
+  year: 2021
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2021CVIUSTDGAN.pdf"
+
+- title: "Learning to Learn Adaptive Classifier-Predictor for Few Shot Learning"
+  authors: "Nan Lai, Meina Kan, Chunrui Han, Xingguang Song, Shiguang Shan"
+  venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2020"
+  year: 2020
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2020TNNLSMPM.pdf"
+
+- title: "Deformable Face Net for Pose Invariant Face Recognition"
+  authors: "Mingjie He, Jie Zhang, Shiguang Shan, Meina Kan, Xilin Chen"
+  venue: "Pattern Recognition (PR), 2020"
+  year: 2020
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2020PRDFP.pdf"
+
+- title: "Learning deep face representation with long-tail data: An aggregate-and-disperse approach"
+  authors: "Yuhao Ma, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "Pattern Recognition Letters, 2020"
+  year: 2020
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2020PRL.pdf"
+
+- title: "Hierarchical Attention for Part-Aware Face Detection"
+  authors: "Shuzhe Wu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Journal of Computer Vision (IJCV), 2019"
+  year: 2019
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2019IJCVPhiFace.pdf"
+
+- title: "AttGAN: Facial Attribute Editing by Only Changing What You Want"
+  authors: "Zhenliang He, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Trans. on Image Processing (TIP), 2019"
+  year: 2019
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2019TIPAttGAN.pdf"
+
+- title: "Multi-view Discriminant Analysis"
+  authors: "Meina Kan, Shiguang Shan, Haihong Zhang, Shihong Lao, Xilin Chen"
+  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2016"
+  year: 2016
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2016PAMIMvDA.pdf"
+  code: "http://vipl.ict.ac.cn/kanmeina/MvDA.zip"
+
+- title: "Funnel-structured cascade for multi-view face detection with alignment-awareness"
+  authors: "Shuzhe Wu, Meina Kan, Zhenliang He, Shiguang Shan, Xilin Chen"
+  venue: "Neurocomputing, 2016"
+  year: 2016
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2016NeurocomputingFust.pdf"
+
+- title: "VIPLFaceNet: An Open Source Deep Face Recognition SDK"
+  authors: "Xin Liu, Meina Kan, Wanglong Wu, Shiguang Shan, Xilin Chen"
+  venue: "Frontiers of Computer Science, 2016"
+  year: 2016
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2016FCSViplfaceNet.pdf"
+
+- title: "Domain Adaptation for Face Recognition: Targetize Source Domain Bridged by Common Subspace"
+  authors: "Meina Kan, Junting Wu, Shiguang Shan, Xilin Chen"
+  venue: "International Journal of Computer Vision (IJCV), 2014"
+  year: 2014
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2014IJCVTSC.pdf"
+
+- title: "Semi-supervised Hashing via Kernel Hyperplane Learning for Scalable Image Search"
+  authors: "Meina Kan, Dong Xu, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2014"
+  year: 2014
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2014TCSVTSKHL.pdf"
+
+- title: "Learning Prototype Hyperplanes for Face Verification in the Wild"
+  authors: "Meina Kan, Dong Xu, Shiguang Shan, Wen Li, Xilin Chen"
+  venue: "IEEE Trans. on Image Processing (TIP), 2013"
+  year: 2013
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2013TIPPHL.pdf"     
+  code: "http://vipl.ict.ac.cn/kanmeina/PHL_SorceCode_v1.0.zip"
+
+- title: "Adaptive Discriminant Learning for Face Recognition"
+  authors: "Meina Kan, Shiguang Shan, Yu Su, Dong Xu, Xilin Chen"
+  venue: "Pattern Recognition (PR), 2013"
+  year: 2013
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2013PRADL.pdf"
+
+
+
+# Conference Papers
+- title: "Feature Decomposition-Recomposition in Large Vision-Language Model for Few-Shot Class-Incremental Learning"
+  authors: "Zongyao Xue, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Computer Vision (ICCV), 2025"
+  year: 2025
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2025ICCV_FDR.pdf"
+
+- title: "Benchmarking Multimodal Large Language Models Against Image Corruptions"
+  authors: "Xinkuan Qiu, Meina Kan, Yongbin Zhou, Shiguang Shan"
+  venue: "International Conference on Computer Vision (ICCV), 2025"
+  year: 2025
+  pdf: ""
+
+- title: "Task-Oriented Token Pruning for Efficient Object Detection and Segmentation"
+  authors: "Hao Liang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
+  year: 2025
+  pdf: ""
+
+- title: "PreLAR: World Model Pre-training with Learnable Action Representation"
+  authors: "Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "European Conference on Computer Vision (ECCV), 2024"
+  year: 2024
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2024ECCV_PreLAR.pdf"
+
+- title: "HPNet: Dynamic Trajectory Forecasting with Historical Prediction Attention"
+  authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Zhilong Ji, Jinfeng Bai, Xilin Chen"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
+  year: 2024
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2024CVPR_HPNet.pdf"
+
+- title: "A Simple Romance Between Multi-Exit Vision Transformer and Token Reduction"
+  authors: "Dongyang Liu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Learning Representations (ICLR), 2024"
+  year: 2024
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2024ICLR_METR.pdf"
+
+- title: "DandelionNet: Domain Composition with Instance Adaptive Classification for Domain Generalization"
+  authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2023"
+  year: 2023
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2023ICCV_DandelionNet.pdf"
+
+- title: "Function-Consistent Feature Distillation"
+  authors: "Dongyang Liu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Learning Representations (ICLR), 2023"
+  year: 2023
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2023ICLR_FCFD.pdf"
+
+- title: "GAN with Multivariate Disentangling for Controllable Hair Editing"
+  authors: "Xuyang Guo, Meina Kan, Tianle Chen, Shiguang Shan"
+  venue: "European Conference on Computer Vision (ECCV), 2022"
+  year: 2022
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2022ECCV_CtrlHair.pdf"
+
+- title: "Mutual Learning of Joint and Separate Domain Alignments for Multi-Source Domain Adaptation"
+  authors: "Yuanyuan Xu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2022"
+  year: 2022
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2022WACV_MLAN.pdf"
+
+- title: "EigenGAN: Layer-Wise Eigen-Learning for GANs"
+  authors: "Zhenliang He, Meina Kan, Shiguang Shan"
+  venue: "International Conference on Computer Vision (ICCV), 2021"
+  year: 2021
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2021ICCVEigenGAN.pdf"
+
+- title: "Unsupervised Domain Adaptation With Hierarchical Gradient Synchronization"
+  authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020"
+  year: 2020
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2020CVPRGSDA.pdf"
+
+- title: "Self-Supervised Equivariant Attention Mechanism for Weakly Supervised Semantic Segmentation"
+  authors: "Yude Wang, Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020"
+  year: 2020
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2020CVPRSEAM.pdf"
+
+- title: "S^2GAN: Share Aging Factors across Ages and Share Aging Trends among Individuals"
+  authors: "Zhenliang He, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE International Conference on Computer Vision (ICCV), 2019"
+  year: 2019
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2019ICCVS2GAN.pdf"
+
+- title: "Weakly Supervised Object Detection with Segmentation Collaboration"
+  authors: "Xiaoyan Li, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE International Conference on Computer Vision (ICCV), 2019"
+  year: 2019
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2019ICCVSDCN.pdf"
+
+- title: "Fully Learnable Group Convolution for Acceleration of Deep Neural Networks"
+  authors: "Xijun Wang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019"
+  year: 2019
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2019CVPRFLGC.pdf"
+
+- title: "Duplex Generative Adversarial Network for Unsupervised Domain Adaptation"
+  authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018CVPRDupGAN.pdf"
+
+- title: "Real-Time Rotation-Invariant Face Detection With Progressive Calibration Networks"
+  authors: "Xuepeng Shi, Shiguang Shan, Meina Kan, Shuzhe Wu, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018CVPRPCN.pdf"
+
+- title: "Face Recognition with Contrastive Convolution"
+  authors: "Chunrui Han, Shiguang Shan, Meina Kan, Shuzhe Wu, Xilin Chen"
+  venue: "European Conference on Computer Vision (ECCV), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018ECCVConstrastiveCon.pdf"
+
+- title: "Generative Adversarial Network with Spatial Attention for Face Attribute Editing"
+  authors: "Gang Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "European Conference on Computer Vision (ECCV), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018ECCVSaGAN.pdf"
+
+- title: "Task-adaptive Feature Reweighting for Few Shot Classification"
+  authors: "Nan Lai, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "Asian Conference on Computer Vision (ACCV), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018ACCVTaCls.pdf"
+
+- title: "Hierarchical Training for Large Scale Face Recognition with Few Samples Per Subject"
+  authors: "Yuhao Ma, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE International Conference on Image Processing (ICIP), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018ICIPHitCNN.pdf"
+
+- title: "Face Anti-Spoofing with Multi-Scale Information"
+  authors: "Shiying Luo, Meina Kan, Shuzhe Wu, Xilin Chen, Shiguang Shan"
+  venue: "International Conference on Pattern Recognition (ICPR), 2018"
+  year: 2018
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2018ICPRMSFANS.pdf"
+
+- title: "Recursive Spatial Transformer (ReST) for Alignment-Free Face Recognition"
+  authors: "Wanglong Wu, Meina Kan, Xin Liu, Yi Yang, Shiguang Shan, Xilin Chen"
+  venue: "IEEE International Conference on Computer Vision (ICCV), 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017ICCVREST.pdf"
+
+- title: "KinNet: Fine-to-Coarse Deep Metric Learning for Kinship"
+  authors: "Yong Li, Jiabei Zeng, Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "ACM Multimedia Conference Workshop on Recognizing Families In the Wild (FIW) Data Challenge, 2017"
+  year: 2017
+
+- title: "Robust FEC-CNN: A High Accuracy Facial Landmark Detection System"
+  authors: "Zhenliang He, Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW) on Faces in-the-wild Challenge, 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017CVPRWFECCNN.pdf"
+
+- title: "LDF-Net: Learning a Displacement Field Network for Face Recognition Across Pose"
+  authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Automatic Face and Gesture Recognition (FG), 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017FGLDF.pdf"
+
+- title: "A Fully End-to-End Cascaded CNN for Facial Landmark Detection"
+  authors: "Zhenliang He, Meina Kan, Jie Zhang, Xilin Chen, Shiguang Shan"
+  venue: "IEEE Conference on Automatic Face and Gesture Recognition (FG), 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017FGFECCNN.pdf"  
+
+- title: "Self-Error-Correcting Convolutional Neural Network for Learning with Noisy Labels"
+  authors: "Xin Liu, Shaoxin Li, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Automatic Face and Gesture Recognition (FG), 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017FGSECNN.pdf"
+
+- title: "Noisy Face Image Sets Refining Collaborated with Discriminant Feature Space Learning"
+  authors: "Xin Liu, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Automatic Face and Gesture Recognition (FG), 2017"
+  year: 2017
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2017NFSL.pdf"
+
+- title: "Multi-view Deep Network for Cross-view Classification"
+  authors: "Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
+  year: 2016
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2016CVPRMvDN.pdf"
+
+- title: "Occlusion-free Face Alignment: Deep Regression Networks Coupled with De-corrupt AutoEncoders"
+  authors: "Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2016"
+  year: 2016
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2016CVPRDAE.pdf"
+
+- title: "Bi-shifting Auto-Encoder for Unsupervised Domain Adaptation"
+  authors: "Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Computer Vision (ICCV), 2015"
+  year: 2015
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2015ICCVBAE.pdf"
+  code: "http://vipl.ict.ac.cn/kanmeina/BAE.zip"
+
+- title: "Leveraging Datasets with Varying Annotations for Face Alignment via Deep Regression Network"
+  authors: "Jie Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Computer Vision (ICCV), 2015"
+  year: 2015
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2015ICCVDRNSSR.pdf"
+
+- title: "AgeNet: Deeply Learned Regressor and Classifier for Robust Apparent Age Estimation"
+  authors: "Xin Liu, Shaoxin Li, Meina Kan, Jie Zhang, Shuzhe Wu, Wenxian Liu, hu Han, Shiguang Shan, Xilin Chen"
+  venue: "ChaLearn Looking at People Workshop on ICCV, 2015"
+  year: 2015
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2015ICCVWAgeNet.pdf"
+
+- title: "Report on the FG 2015 Video Person Recognition Evaluation"
+  authors: "J. Ross Beveridge, Hao Zhang, Bruce A. Draper, Patrick J. Flynn, Zhenhua Feng, Patrick Huber, Josef Kittler, Zhiwu Huang, Shaoxin Li, Yan Li, Meina Kan, Ruiping Wang, Shiguang Shan, Xilin Chen, Haoxiang Li, Gang Hua, Vitomir Struc, Janez Krizaj, Changxing Ding, Dacheng Tao, P. Jonathon Phillips"
+  venue: "IEEE International Conference on Automatic Face and Gesture Recognition (FG), 2015"
+  year: 2015
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2015CVPRWPaSC.pdf"
+
+- title: "Stacked Progressive Auto-Encoders (SPAE) for Face Recognition Across Poses"
+  authors: "Meina Kan, Shiguang Shan, Hong Chang, Xilin Chen"
+  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2014"
+  year: 2014
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2014CVPRSPAE.pdf"
+  code: "http://vipl.ict.ac.cn/kanmeina/SPAE_v1.0.zip"
+
+- title: "Coarse-to-Fine Auto-encoder Networks (CFAN) for Real-time Face Alignment"
+  authors: "Jie Zhang, Shiguang Shan, Meina Kan, Xilin Chen"
+  venue: "European Conference on Computer Vision (ECCV), 2014"
+  year: 2014
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2014ECCVCFAN.pdf"
+  code: "http://vipl.ict.ac.cn/kanmeina/CFAN_Code_v2.0.rar"
+
+- title: "Topic-aware Deep Auto-encoders (TDA) for Face Alignment"
+  authors: "Jie Zhang, Meina Kan, Shiguang Shan, Xiaowe Zhao, Xilin Chen"
+  venue: "Asian Conference on Computer Vision (ACCV), 2014"
+  year: 2014
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2014ACCVTDA.pdf"
+
+- title: "Multi-view Discriminant Analysis"
+  authors: "Meina Kan, Shiguang Shan, Haihong Zhang, Shihong Lao, Xilin Chen"
+  venue: "European Conference on Computer Vision (ECCV), 2012"
+  year: 2012
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2012ECCVMvDA.pdf"
+
+- title: "Side-Information based Linear Discriminant Analysis for Face Recognition"
+  authors: "Meina Kan, Shiguang Shan, Dong Xu, Xilin Chen"
+  venue: "British Machine Vision Conference (BMVC), 2011"
+  year: 2011
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2011BMVCSILD.pdf"
+
+- title: "Adaptive Discriminant Analysis for face recognition from Single Sample per Person"
+  authors: "Meina Kan, Shiguang Shan, Yu Su, Xilin Chen, Wen Gao"
+  venue: "International Conference on Automatic Face and Gesture Recognition (FG), 2011"
+  year: 2011
+  pdf: "https://github.com/lk-aa/lk-aa.github.io/blob/main/pdf/2011FGADA.pdf"
+
+# Awards
+- title: "Outstanding Paper Award, Frontiers of Computer Science"
+  authors: "Xin Liu, Meina Kan, Wanglong Wu, Shiguang Shan, Xilin Chen"
+  venue: "VIPLFaceNet: an open source deep face recognition SDK, 2024"
+  year: 2024
+
+# - title: "公安部科学技术奖二等奖"
+#   authors: ""
+#   venue: "Award"
+#   year: 2023
+
+# - title: "中科院计算所优秀科研人员"
+#   authors: ""
+#   venue: "Award"
+#   year: 2022
+
+# - title: "国家自然科学基金优青项目"
+#   authors: ""
+#   venue: "Award"
+#   year: 2021
+
+# - title: "北京市科学技术进步奖二等奖"
+#   authors: ""
+#   venue: "Award"
+#   year: 2021
+
+# - title: "北京市科技新星"
+#   authors: ""
+#   venue: "Award"
+#   year: 2019
+
+# - title: "中国图象图形学学会石青云女科学家奖-青年奖"
+#   authors: ""
+#   venue: "Award"
+#   year: 2018
+
+# - title: "中科院计算所优秀科研人员"
+#   authors: ""
+#   venue: "Award"
+#   year: 2018
+
+- title: "IEEE CVPR 'Landmark Detection Track of Faces in-the-wild Challenge', 2nd Place"
+  authors: "Meina Kan"
+  venue: "Award, 2017"
+  year: 2017
+
+- title: "ACM MM 'Kinship Recognition Track of Recognizing Families In the Wild Data Challenge', 1st Place"
+  authors: "Meina Kan"
+  venue: "Award, 2017"
+  year: 2017
+
+# - title: "CCF青年人才托举计划"
+#   authors: ""
+#   venue: "Award"
+#   year: 2016
+
+# - title: "中科院青促会"
+#   authors: ""
+#   venue: "Award"
+#   year: 2016
+
+# - title: "中科院计算所卓越之星"
+#   authors: ""
+#   venue: "Award"
+#   year: 2016
+
+# - title: "中科院计算所优秀科研人员"
+#   authors: ""
+#   venue: "Award"
+#   year: 2016
+
+# - title: "华为北研所优秀合作成果奖"
+#   authors: ""
+#   venue: "Award"
+#   year: 2016
+
+# - title: "中科院计算所优秀研究人员"
+#   authors: ""
+#   venue: "Award"
+#   year: 2015
+
+- title: "IEEE FG 'Point and Shoot Face Recognition Challenge (PaSC)', 1st Place"
+  authors: "Meina Kan"
+  venue: "Award, 2015"
+  year: 2015
+
+- title: "IEEE ICCV 'Apparent Age Estimation Track of ChaLearn Looking at People', 2nd Place"
+  authors: "Meina Kan"
+  venue: "Award, 2015"
+  year: 2015
+
+# - title: "CCF优秀博士学位论文"
+#   authors: ""
+#   venue: "Award"
+#   year: 2014
+
+# - title: "中科院优秀博士学位论文"
+#   authors: ""
+#   venue: "Award"
+#   year: 2014
+
+# - title: "中科院朱李月华优秀博士生奖"
+#   authors: ""
+#   venue: "Award"
+#   year: 2013
+
+# - title: "Scaffolding Dexterous Manipulation with Vision-Language Models"
+#   authors: "Vincent de Bakker, Joey Hejna, Tyler Ga Wei Lum, Onur Celik, Aleksandar Taranovic, Denis Blessing, Gerhard Neumann, Jeannette Bohg, Dorsa Sadigh"
+#   venue: "Conference on Neural Information Processing Systems (NeurIPS), December 2025"
+#   year: 2025
+#   abstract: "本文提出了一种基于深度强化学习的机器人抓取策略，能够在复杂环境中实现高精度的物体抓取。"
+#   doi: "10.1109/ICRA.2024.123456"
+#   pdf: "/papers/icra2024.pdf"
+#   code: "https://github.com/lab/robot-grasping"
+#   website: "/slides/icra2024.pdf"
+#   bibtex: |
+#     @inproceedings{zhang2024robot,
+#       title={基于深度强化学习的机器人抓取策略研究},
+#       author={张教授 and 李博士 and 王博士},
+#       booktitle={国际机器人学会议},
+#       year={2024},
+#       pages={1--8}
+#     }
+
+# - title: "Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation"
+#   authors: "Homanga Bharadhwaj, Debidatta Dwibedi, Abhinav Gupta, Shubham Tulsiani, Carl Doersch, Ted Xiao, Dhruv Shah, Fei Xia, Dorsa Sadigh, Sean Kirmani"
+#   venue: "Conference on Robot Learning (CoRL), October 2025"
+#   year: 2024
+#   abstract: "本研究探索了多模态融合的大语言模型在机器人任务规划中的潜力，提出了新的融合架构。"
+#   doi: "10.5555/neurips2023.789012"
+#   pdf: "/papers/neurips2023.pdf"
+#   code: "https://github.com/lab/multimodal-llm"
+#   bibtex: |
+#     @inproceedings{wang2023multimodal,
+#       title={多模态融合的大语言模型在机器人任务规划中的应用},
+#       author={王博士 and 张教授},
+#       booktitle={神经信息处理系统大会},
+#       year={2023},
+#       pages={1--10}
+#     }
+
+# - title: "Action-Free Reasoning for Policy Generalization"
+#   authors: "Jaden Clark, Suvir Mirchandani, Dorsa Sadigh, Suneel Belkhale"
+#   venue: "Conference on Robot Learning (CoRL), October 2025"
+#   year: 2023
+#   abstract: "我们提出了一个基于视觉语言模型的机器人场景理解系统，能够实现自然语言指令的场景解析。"
+#   doi: "10.1109/CVPR.2023.456789"
+#   pdf: "/papers/cvpr2023.pdf"
+#   code: "https://github.com/lab/vlm-scene"
+#   bibtex: |
+#     @inproceedings{li2023vlm,
+#       title={基于视觉语言模型的机器人场景理解系统},
+#       author={李博士 and 赵同学 and 张教授},
+#       booktitle={计算机视觉与模式识别会议},
+#       year={2023},
+#       pages={1--9}
+#     }
+
+# - title: "Data Retrieval with Importance Weights for Few-Shot Imitation Learning"
+#   authors: "Amber Xie, Rahul Chand, Dorsa Sadigh, Joey Hejna"
+#   venue: "Conference on Robot Learning (CoRL), October 2025"
+#   year: 2022
+#   abstract: "本文提出了一种在人机协作环境中确保安全性的强化学习算法。"
+#   doi: "10.5555/aistats2022.234567"
+#   pdf: "/papers/aistats2022.pdf"
+#   code: "https://github.com/lab/safe-rl"
+#   bibtex: |
+#     @inproceedings{qian2022safe,
+#       title={人机协作中的安全强化学习算法},
+#       author={钱同学 and 张教授},
+#       booktitle={人工智能与统计会议},
+#       year={2022},
+#       pages={1--7}
+#     }
+
+# - title: "ProVox: Personalization and Proactive Planning for Situated Human-Robot Collaboration"
+#   authors: "Jennifer Grannen, Siddharth Karamcheti, Blake Wulfe, Dorsa Sadigh"
+#   venue: "IEEE Robotics and Automation Letters (RA-L), August 2025"
+#   year: 2021
+#   abstract: "我们提出了一个基于知识图谱的机器人任务推理框架，能够处理复杂的多步骤任务。"
+#   doi: "10.1109/IROS.2021.890123"
+#   pdf: "/papers/iros2021.pdf"
+#   code: "https://github.com/lab/kg-robot"
+#   bibtex: |
+#     @inproceedings{sun2021kg,
+#       title={基于知识图谱的机器人任务推理框架},
+#       author={孙博士 and 张教授},
+#       booktitle={国际智能机器人与系统会议},
+#       year={2021},
+#       pages={1--6}
+#     }

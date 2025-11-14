@@ -1,0 +1,478 @@
+---
+layout: default
+---
+
+<div class="research-detail">
+  <!-- 研究方向概览网格（与主页面相同） -->
+  <div class="research-overview">
+    <div class="research-grid 
+      {% if site.data.research.research_areas.size == 3 %}research-grid-3{% endif %}
+      {% if site.data.research.research_areas.size == 4 %}research-grid-2{% endif %}">
+      
+      {% for area in site.data.research.research_areas %}
+      <div class="research-card {% if area.id == page.area_id %}current-area{% endif %}">
+        <a href="/research/{{ area.id }}/" class="research-card-link">
+          <div class="research-image">
+            <img src="{{ area.image }}" alt="{{ area.name }}" loading="lazy">
+          </div>
+          <div class="research-content">
+            <h3 class="research-title">{{ area.name }}</h3>
+            <!-- <p class="research-summary">{{ area.summary }}</p> -->
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- 页面标题 -->
+  <div class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+  </div>
+
+  <!-- 当前研究方向描述 -->
+  <div class="current-research-description">
+    <p>{{ page.description }}</p>
+  </div>
+
+  <!-- 详细内容组 -->
+  <div class="content-groups">
+    {% for group in page.content_groups %}
+    <div class="content-group">
+      <div class="group-header">
+        <h2 class="group-title">{{ group.title }}</h2>
+      </div>
+      
+      <div class="group-content">
+        {% if group.image and group.image != "" %}
+        <div class="media-section">
+          <div class="research-media">
+            <img src="{{ group.image }}" alt="{{ group.title }}" loading="lazy" class="responsive-media">
+          </div>
+          <p class="media-caption"><em>{{ group.caption }}</em></p>
+        </div>
+        {% endif %}
+        
+        <div class="description-section">
+          {% assign paragraphs = group.description | newline_to_br | split: '<br />' %}
+          {% for paragraph in paragraphs %}
+            {% if paragraph != blank %}
+            <p class="description-paragraph">{{ paragraph | strip }}</p>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.research-detail {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+/* 主标题样式通过全局_typography.scss应用 */
+/* .page-title {
+  font-size: 1.43rem;
+  font-weight: 630;
+  margin-bottom: 1rem;
+  color: #000000;
+  text-align: left;
+  letter-spacing: -0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+} */
+
+.current-research-description {
+  text-align: left;
+  max-width: 42rem;
+  margin: 1rem auto;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: #000000;
+}
+
+.research-overview {
+  margin: 1.5rem 0 2rem;
+}
+
+.research-grid {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.research-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.research-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.research-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 1rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 123, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+.research-card:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: transform 0.1s ease;
+}
+
+.research-card-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+/* 确保链接不会显示默认样式 */
+.research-card-link:link,
+.research-card-link:visited,
+.research-card-link:hover,
+.research-card-link:active {
+  background: none !important;
+  text-decoration: none;
+  color: inherit;
+  border: none !important;
+  outline: none;
+}
+
+.research-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.research-card:hover .research-image {
+  transform: scale(1.03);
+}
+
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.research-card:hover .research-image img {
+  transform: scale(1.08);
+}
+
+.research-content {
+  padding: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #0056b3;
+  letter-spacing: 0.02em;
+  line-height: 1.4;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+.research-card:hover .research-title {
+  color: #007bff;
+}
+
+.research-title {
+  position: relative;
+  display: inline-block;
+}
+
+.research-title::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0056b3, #007acc);
+  transition: width 0.3s ease;
+  border-radius: 1px;
+  z-index: 1;
+}
+
+.research-card:hover .research-title::after {
+  width: 80%;
+}
+
+.research-summary {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.current-area {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 123, 255, 0.15);
+  transition: all 0.3s ease;
+  border: 2px solid rgba(0, 123, 255, 0.3);
+  position: relative;
+  transform: translateY(-3px);
+  padding: 1rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.current-area::before {
+  content: 'current research area';
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(135deg, #0056b3, #007acc);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.6rem;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 123, 255, 0.3);
+  letter-spacing: 0.5px;
+  z-index: 3;
+}
+
+.content-groups {
+  margin-top: 2rem;
+}
+
+.content-group {
+  margin-bottom: 0rem;
+  padding-bottom: 0rem;
+  /* border-bottom: 1px solid #eee; */
+}
+
+.content-group:last-child {
+  border-bottom: none;
+}
+
+.group-header {
+  margin-bottom: 1.5rem;   /* 标题与内容的间距 */
+  text-align: center;
+}
+
+/* h2 标题 */
+.group-title {
+  font-size: 1.2rem;
+  font-weight: 630;
+  margin-bottom: 0.0rem;
+  color: #000000;
+  text-align: left;
+  letter-spacing: 0.02em;
+  font-family: "TeXGyrePagella","Merriweather","PT Serif",Georgia,"Times New Roman",serif;
+}
+
+.group-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5rem;    /* 图片与正文之间的间距 */
+  align-items: center;
+  justify-items: center;
+}
+
+.media-section {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.research-media {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 0.2rem;
+}
+
+.responsive-media {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* em 注释部分 */
+.media-caption {
+  font-style: italic;
+  color: #000;
+  font-size: 0.7rem;
+  line-height: 1.4;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.description-section {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #000000;
+  width: 100%;
+  max-width: 42rem;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.description-paragraph {
+  margin-bottom: 0.5rem;
+}
+
+.description-paragraph:last-child {
+  margin-bottom: 0;
+}
+
+/* 自定义重点文字样式 */
+.highlight-red {
+  color: #e74c3c;
+  font-weight: bold;
+  background-color: #ffeaa7;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.highlight-blue {
+  color: #3498db;
+  font-style: italic;
+  font-weight: bold;
+  /* font-weight: 600; */
+  /* border-bottom: 2px solid #3498db; */
+}
+
+.emphasis {
+  color: #2c3e50;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.keyword {
+  background-color: #3e9af7;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+}
+
+@media (max-width: 768px) {
+  .research-detail {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .current-research-description {
+    text-align: center;
+  }
+
+  .research-card {
+    border-radius: 10px;
+    height: 280px;
+    padding: 0.875rem;
+  }
+
+  .research-image {
+    height: 160px;
+    border-radius: 6px;
+  }
+
+  .research-title {
+    font-size: 1.05rem;
+  }
+
+  .research-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 123, 255, 0.1);
+  }
+
+  .current-area {
+    transform: translateY(-3px);
+  }
+}
+
+@media (max-width: 480px) {
+  .research-detail {
+    padding: 1.25rem 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .current-research-description {
+    text-align: center;
+  }
+
+  .research-grid {
+    gap: 1.25rem;
+  }
+
+  .research-card {
+    border-radius: 8px;
+    height: 260px;
+    padding: 0.75rem;
+  }
+
+  .research-image {
+    height: 140px;
+    border-radius: 6px;
+    margin-bottom: 0.875rem;
+  }
+
+  .research-title {
+    font-size: 1rem;
+  }
+
+  .research-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 123, 255, 0.08);
+  }
+
+  .current-area::before {
+    display: none;
+  }
+}
+</style>

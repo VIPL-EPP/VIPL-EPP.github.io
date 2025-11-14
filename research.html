@@ -1,0 +1,306 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+
+<div class="research-main">
+  <!-- 主标题 -->
+  <div class="page-header">
+    <!-- <h1 class="page-title">Research</h1> -->
+    <h1>Research</h1>
+  </div>
+
+  <!-- 总体介绍 -->
+  <div class="research-intro">
+    {{ site.data.research.introduction | markdownify }}
+  </div>
+
+  <!-- 研究方向网格 -->
+  <div class="research-grid-container">
+    <div class="research-grid 
+      {% if site.data.research.research_areas.size == 3 %}research-grid-3{% endif %}
+      {% if site.data.research.research_areas.size == 4 %}research-grid-2{% endif %}
+      {% if site.data.research.research_areas.size == 2 %}research-grid-2{% endif %}
+      {% if site.data.research.research_areas.size == 1 %}research-grid-1{% endif %}">
+      
+      {% for area in site.data.research.research_areas %}
+      <div class="research-card">
+        <a href="/research/{{ area.id }}/" class="research-card-link">
+          <div class="research-image">
+            <img src="{{ area.image }}" alt="{{ area.name }}" loading="lazy">
+          </div>
+          <div class="research-content">
+            <h3 class="research-title">{{ area.name }}</h3>
+            <!-- <p class="research-summary">{{ area.summary }}</p> -->
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<style>
+.research-main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 0.5rem 0;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.page-header {
+  text-align: left;
+  /* margin-bottom: 1.5rem; */
+}
+
+/* 主标题样式通过全局_typography.scss应用 */
+/* .page-title {
+  font-size: 1.43rem;
+  font-weight: 630;
+  margin-bottom: 1rem;
+  color: #000000;
+  text-align: left;
+  letter-spacing: -0.02em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+} */
+
+.research-intro {
+  text-align: left;
+  max-width: 42rem;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #000000;
+}
+
+.research-grid-container {
+  margin: 1rem 0;
+}
+
+.research-grid {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.research-grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.research-grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.research-grid-1 {
+  grid-template-columns: 1fr;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.research-card {
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  position: relative;
+  padding: 1rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.research-card:hover {
+  box-shadow: 0 6px 24px rgba(0, 123, 255, 0.12);
+  transform: translateY(-4px);
+}
+
+.research-card:active {
+  transform: translateY(-2px) scale(0.98);
+  transition: transform 0.1s ease;
+}
+
+.research-card-link {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  width: 100%;
+  background: none !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-shadow: none;
+}
+
+/* 确保链接不会显示默认样式 */
+.research-card-link:link,
+.research-card-link:visited,
+.research-card-link:hover,
+.research-card-link:active {
+  background: none !important;
+  text-decoration: none;
+  color: inherit;
+  border: none !important;
+  outline: none;
+}
+
+.research-image {
+  width: 100%;
+  height: 180px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.25rem;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+
+.research-card:hover .research-image {
+  transform: scale(1.03);
+}
+
+.research-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.research-card:hover .research-image img {
+  transform: scale(1.08);
+}
+
+.research-content {
+  padding: 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #0056b3;
+  letter-spacing: 0.02em;
+  line-height: 1.6;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  transition: color 0.3s ease;
+  background: none;
+  border: none;
+}
+
+.research-card:hover .research-title {
+  color: #007bff;
+}
+
+.research-title {
+  position: relative;
+  display: inline-block;
+}
+
+.research-title::after {
+  content: '';
+  position: absolute;
+  bottom: -6px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #0056b3, #007acc);
+  transition: width 0.3s ease;
+  border-radius: 1px;
+  z-index: 1;
+}
+
+.research-card:hover .research-title::after {
+  width: 80%;
+}
+
+.research-summary {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #4a5568;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .research-main {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .page-title {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .research-intro {
+    text-align: center;
+  }
+
+  .research-card {
+    border-radius: 10px;
+    height: 280px;
+    padding: 0.875rem;
+  }
+
+  .research-image {
+    height: 160px;
+    border-radius: 6px;
+  }
+
+  .research-title {
+    font-size: 1.05rem;
+  }
+
+  .research-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px rgba(0, 123, 255, 0.1);
+  }
+}
+
+@media (max-width: 480px) {
+  .research-main {
+    padding: 1.25rem 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+  }
+
+  .research-grid {
+    gap: 1.25rem;
+  }
+
+  .research-card {
+    border-radius: 8px;
+    height: 260px;
+    padding: 0.75rem;
+  }
+
+  .research-image {
+    height: 140px;
+    border-radius: 6px;
+    margin-bottom: 0.875rem;
+  }
+
+  .research-title {
+    font-size: 1rem;
+  }
+
+  .research-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 16px rgba(0, 123, 255, 0.08);
+  }
+}
+</style>

@@ -1,0 +1,138 @@
+.site-header {
+  padding-top: $space-1;
+  padding-bottom: $space-2;
+}
+
+.site-header a {
+  color: $header-color;
+  font-size: $h3;
+  font-weight: $header-font-weight;
+  background-image: none;
+}
+
+// .site-header .site-title {
+//   font-size: $h2;
+// }
+
+.site-header .site-title {
+  display: inline-block;
+}
+
+.site-header .site-logo {
+  max-height: 60px; /* 设置logo最大高度 */
+  vertical-align: middle;
+  margin-bottom: 0; /* 去除图片下方的默认空白 */
+}
+
+.site-nav {
+  padding-top: $nav-padding;
+}
+
+.site-header nav a {
+  color: $nav-color;
+  font-size: 1rem; /* 导航栏字体大小 */
+}
+
+.site-header nav a:hover,
+.site-header nav a:focus,
+.site-header nav a:active,
+.site-header nav a.nav-active:hover,
+.site-header nav a.nav-active:focus,
+.site-header nav a.nav-active:active {
+  color: $nav-link-color;
+  opacity: 1;
+  border-bottom: $nav-link-border-bottom;
+}
+
+.site-header nav a.nav-active {
+  border-bottom: $nav-active-border-bottom;
+  color: #0066cc;    /* 蓝色 */
+}
+
+.site-nav a + a {
+  margin-left: $nav-link-padding-x;
+}
+
+.site-header a:hover,
+.posts .post a:hover .post-meta,
+.posts .post a:hover .post-title,
+.posts .post a:hover .post-summary {
+  opacity: 0.88;
+}
+
+.site-header {
+  text-align: center;
+}
+
+.site-header .site-nav {
+  text-align: center;
+}
+
+/* New header layout styles */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.header-left {
+  flex-shrink: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Consistent spacing between navigation and icons */
+}
+
+.site-nav {
+  display: flex;
+  gap: 0.5rem; /* Consistent spacing between navigation links */
+  margin: 0;
+  padding: 0;
+}
+
+.header-icons {
+  display: flex;
+  gap: 0.5rem; /* Consistent spacing between icons */
+  align-items: center;
+}
+
+.icon-link {
+  color: $nav-color;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.icon-link:hover {
+  color: $nav-link-color;
+  opacity: 1;
+  background-color: rgba(0, 0, 0, 0.05);
+  transform: scale(1.1);
+}
+
+/* Responsive design for mobile */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .header-right {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .site-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
