@@ -20,7 +20,7 @@ research_areas:
   - id: "embodied-perception"
     name: "Embodied Perception"
     summary: ""
-    image: "/images/research_img/具身感知.jpg"
+    image: "/images/research_img/embodied_perception.png"
     description: "Embodied perception breaks the framework of traditional static image recognition by integrating the perceptual process into the interactive loop between the agent and the environment. This allows the agent to dynamically adjust its perception strategies according to task demands, shifting from 'passively receiving information' to 'actively acquiring information.' Our objective is to endow agents with generalized perception capabilities, making them adaptable to the diverse requirements of multi-task scenarios while balancing perception efficiency and robustness."
     
     # 详细介绍页面的内容组
@@ -52,7 +52,7 @@ research_areas:
   - id: "visual-navigation"
     name: "Visual Navigation"
     summary: ""
-    image: "/images/research_img/视觉导航.jpg"
+    image: "/images/research_img/visual_navigation.png"
     description: "Visual navigation in complex scenes is a core capability of embodied AI. We are committed to researching how agents, relying solely on visual sensors, can understand high-level instructions (e.g., natural language) and plan and execute safe, efficient movement in open scenes filled with uncertainties (e.g., complex layouts, dynamic pedestrians, unknown traversability). The core challenge lies in building navigation systems that can integrate semantic understanding, motion prediction, and environmental affordance inference."
     
     content_groups:
@@ -91,7 +91,7 @@ research_areas:
   - id: "cross-disciplinary"
     name: "Cross-Disciplinary Exploration"
     summary: ""
-    image: "/images/research_img/跨领域探索.jpg"
+    image: "/images/research_img/cross_disciplinary.png"
     description: "Building upon the core technologies of embodied perception and navigation, we further expand into related research areas such as multimodal fusion and system deployment. We aim to construct a complete research chain from 'basic theory – core technology – practical application,' promoting the transition of embodied AI technology from the laboratory to real-world scenarios."
     
     content_groups:
