@@ -15,6 +15,20 @@
 #       pages={1--8}
 #     }
 
+- title: "Walking World Model for Visually Impaired Path Following"
+  authors: "Haokun Ju, Lixuan Zhang, Xiangyu Cao, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Robotics and Automation Letters (RAL), 2025"
+  year: 2025
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025RAL-WWM-VIPF.pdf"
+  website: "https://haokunju.github.io/walking-wm.github.io"
+
+- title: "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling"
+  authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Robotics and Automation Letters (RAL), 2025"
+  year: 2025
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025RAL-PlanR1.pdf"
+  code: "https://github.com/XiaolongTang23/Plan-R1"
+
 - title: "eLabrador: A wearable navigation system for visually impaired individuals"
   authors: "Meina Kan, Lixuan Zhang, Hao Liang, Boyuan Zhang, Minxue Fang, Dongyang Liu, Shiguang Shan, Xilin Chen"
   venue: "IEEE Transactions on Automation Science and Engineering (TASE), 2025"
@@ -121,30 +135,34 @@
   venue: "International Conference on Computer Vision (ICCV), 2025"
   year: 2025
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025ICCV_FDR.pdf"
+  code: "https://github.com/herb1999/FDR"
 
 - title: "Benchmarking Multimodal Large Language Models Against Image Corruptions"
   authors: "Xinkuan Qiu, Meina Kan, Yongbin Zhou, Shiguang Shan"
   venue: "International Conference on Computer Vision (ICCV), 2025"
   year: 2025
-  pdf: ""
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025ICCV-LLM-IC.pdf"
+  code: "https://github.com/VIPL-EPP/MLLM-IC"
 
 - title: "Task-Oriented Token Pruning for Efficient Object Detection and Segmentation"
   authors: "Hao Liang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2025"
   year: 2025
-  pdf: ""
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025IROS-TaskTP.pdf"
 
 - title: "PreLAR: World Model Pre-training with Learnable Action Representation"
   authors: "Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "European Conference on Computer Vision (ECCV), 2024"
   year: 2024
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2024ECCV_PreLAR.pdf"
+  code: "https://github.com/zhanglixuan0720/PreLAR"
 
 - title: "HPNet: Dynamic Trajectory Forecasting with Historical Prediction Attention"
   authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Zhilong Ji, Jinfeng Bai, Xilin Chen"
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024"
   year: 2024
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2024CVPR_HPNet.pdf"
+  code: "https://github.com/XiaolongTang23/HPNet"
 
 - title: "A Simple Romance Between Multi-Exit Vision Transformer and Token Reduction"
   authors: "Dongyang Liu, Meina Kan, Shiguang Shan, Xilin Chen"
@@ -163,6 +181,7 @@
   venue: "International Conference on Learning Representations (ICLR), 2023"
   year: 2023
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2023ICLR_FCFD.pdf"
+  code: "https://github.com/LiuDongyang6/FCFD"
 
 - title: "GAN with Multivariate Disentangling for Controllable Hair Editing"
   authors: "Xuyang Guo, Meina Kan, Tianle Chen, Shiguang Shan"
@@ -181,6 +200,7 @@
   venue: "International Conference on Computer Vision (ICCV), 2021"
   year: 2021
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2021ICCVEigenGAN.pdf"
+  code: "https://github.com/LynnHo/EigenGAN-Tensorflow"
 
 - title: "Unsupervised Domain Adaptation With Hierarchical Gradient Synchronization"
   authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
@@ -193,6 +213,7 @@
   venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020"
   year: 2020
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2020CVPRSEAM.pdf"
+  code: "https://github.com/YudeWang/SEAM"
 
 - title: "S^2GAN: Share Aging Factors across Ages and Share Aging Trends among Individuals"
   authors: "Zhenliang He, Meina Kan, Shiguang Shan, Xilin Chen"
