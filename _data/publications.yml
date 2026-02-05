@@ -22,12 +22,11 @@
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025RAL-WWM-VIPF.pdf"
   website: "https://haokunju.github.io/walking-wm.github.io"
 
-- title: "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling"
+- title: "RAP: Role-Aware Joint Prediction and Planning in Autonomous Driving"
   authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "IEEE Robotics and Automation Letters (RAL), 2025"
   year: 2025
-  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025RAL-PlanR1.pdf"
-  code: "https://github.com/XiaolongTang23/Plan-R1"
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2025RAL-RAP.pdf"
 
 - title: "eLabrador: A wearable navigation system for visually impaired individuals"
   authors: "Meina Kan, Lixuan Zhang, Hao Liang, Boyuan Zhang, Minxue Fang, Dongyang Liu, Shiguang Shan, Xilin Chen"
@@ -130,6 +129,13 @@
 
 
 # Conference Papers
+- title: "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling"
+  authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "International Conference on Learning Representations, 2026"
+  year: 2026
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2026ICLR-PlanR1.pdf"
+  code: "https://github.com/XiaolongTang23/Plan-R1"
+
 - title: "Feature Decomposition-Recomposition in Large Vision-Language Model for Few-Shot Class-Incremental Learning"
   authors: "Zongyao Xue, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "International Conference on Computer Vision (ICCV), 2025"
