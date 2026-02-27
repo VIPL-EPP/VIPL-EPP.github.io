@@ -15,6 +15,19 @@
 #       pages={1--8}
 #     }
 
+- title: "Patching the visual ability of large multimodal models by collaborating with small models"
+  authors: "Hao Liang, Xiaolong Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "Frontiers of Computer Science (FCS), 2026"
+  year: 2026
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2026FCS-PVA.pdf"
+
+- title: "Collaborative Map-Based and Route-Based Policy Learning for Continuous Vision-and-Language Navigation"
+  authors: "Jiewen Hou, Meina Kan, Lixuan Zhang, Hao Liang, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Robotics and Automation Letters (RAL), 2026"
+  year: 2026
+  pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2026RAL-CoMaR.pdf"
+  code: "https://github.com/VIPL-EPP/CoMaR"
+
 - title: "Walking World Model for Visually Impaired Path Following"
   authors: "Haokun Ju, Lixuan Zhang, Xiangyu Cao, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "IEEE Robotics and Automation Letters (RAL), 2025"
@@ -129,9 +142,19 @@
 
 
 # Conference Papers
+- title: "Revisiting Visual Corruptions in LVLMs: A Shape–Texture Perspective on Model Failures"
+  authors: "Xinkuan Qiu, Meina Kan, Zhenliang He, Yongbin Zhou, Shiguang Shan"
+  venue: "Computer Vision and Pattern Recognition (CVPR), 2026"
+  year: 2026
+
+- title: "UniPercept: A Unified Diffusion Model for Generalizable Visual Perception"
+  authors: "Zuyan Zhao, Zhenliang He, Meina Kan, Shiguang Shan, Xilin CHEN"
+  venue: "Computer Vision and Pattern Recognition (CVPR), 2026"
+  year: 2026
+
 - title: "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling"
   authors: "Xiaolong Tang, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "International Conference on Learning Representations, 2026"
+  venue: "International Conference on Learning Representations (ICLR), 2026"
   year: 2026
   pdf: "https://github.com/VIPL-EPP/VIPL-EPP.github.io/tree/main/pdf/2026ICLR-PlanR1.pdf"
   code: "https://github.com/XiaolongTang23/Plan-R1"
