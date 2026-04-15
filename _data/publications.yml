@@ -144,12 +144,12 @@
 # Conference Papers
 - title: "Revisiting Visual Corruptions in LVLMs: A Shape–Texture Perspective on Model Failures"
   authors: "Xinkuan Qiu, Meina Kan, Zhenliang He, Yongbin Zhou, Shiguang Shan"
-  venue: "Computer Vision and Pattern Recognition (CVPR), 2026"
+  venue: "IEEE/CVF Computer Vision and Pattern Recognition (CVPR), 2026"
   year: 2026
 
 - title: "UniPercept: A Unified Diffusion Model for Generalizable Visual Perception"
   authors: "Zuyan Zhao, Zhenliang He, Meina Kan, Shiguang Shan, Xilin CHEN"
-  venue: "Computer Vision and Pattern Recognition (CVPR), 2026"
+  venue: "IEEE/CVF Computer Vision and Pattern Recognition (CVPR), 2026"
   year: 2026
 
 - title: "Plan-R1: Safe and Feasible Trajectory Planning as Language Modeling"
@@ -161,14 +161,14 @@
 
 - title: "Feature Decomposition-Recomposition in Large Vision-Language Model for Few-Shot Class-Incremental Learning"
   authors: "Zongyao Xue, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "International Conference on Computer Vision (ICCV), 2025"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2025"
   year: 2025
   pdf: "/pdf/2025ICCV_FDR.pdf"
   code: "https://github.com/herb1999/FDR"
 
 - title: "Benchmarking Multimodal Large Language Models Against Image Corruptions"
   authors: "Xinkuan Qiu, Meina Kan, Yongbin Zhou, Shiguang Shan"
-  venue: "International Conference on Computer Vision (ICCV), 2025"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2025"
   year: 2025
   pdf: "/pdf/2025ICCV-LLM-IC.pdf"
   code: "https://github.com/VIPL-EPP/MLLM-IC"
@@ -226,7 +226,7 @@
 
 - title: "EigenGAN: Layer-Wise Eigen-Learning for GANs"
   authors: "Zhenliang He, Meina Kan, Shiguang Shan"
-  venue: "International Conference on Computer Vision (ICCV), 2021"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2021"
   year: 2021
   pdf: "/pdf/2021ICCVEigenGAN.pdf"
   code: "https://github.com/LynnHo/EigenGAN-Tensorflow"
@@ -246,31 +246,31 @@
 
 - title: "S^2GAN: Share Aging Factors across Ages and Share Aging Trends among Individuals"
   authors: "Zhenliang He, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "IEEE International Conference on Computer Vision (ICCV), 2019"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2019"
   year: 2019
   pdf: "/pdf/2019ICCVS2GAN.pdf"
 
 - title: "Weakly Supervised Object Detection with Segmentation Collaboration"
   authors: "Xiaoyan Li, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "IEEE International Conference on Computer Vision (ICCV), 2019"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2019"
   year: 2019
   pdf: "/pdf/2019ICCVSDCN.pdf"
 
 - title: "Fully Learnable Group Convolution for Acceleration of Deep Neural Networks"
   authors: "Xijun Wang, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019"
   year: 2019
   pdf: "/pdf/2019CVPRFLGC.pdf"
 
 - title: "Duplex Generative Adversarial Network for Unsupervised Domain Adaptation"
   authors: "Lanqing Hu, Meina Kan, Shiguang Shan, Xilin Chen"
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
   year: 2018
   pdf: "/pdf/2018CVPRDupGAN.pdf"
 
 - title: "Real-Time Rotation-Invariant Face Detection With Progressive Calibration Networks"
   authors: "Xuepeng Shi, Shiguang Shan, Meina Kan, Shuzhe Wu, Xilin Chen"
-  venue: "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2018"
   year: 2018
   pdf: "/pdf/2018CVPRPCN.pdf"
 
@@ -306,7 +306,7 @@
 
 - title: "Recursive Spatial Transformer (ReST) for Alignment-Free Face Recognition"
   authors: "Wanglong Wu, Meina Kan, Xin Liu, Yi Yang, Shiguang Shan, Xilin Chen"
-  venue: "IEEE International Conference on Computer Vision (ICCV), 2017"
+  venue: "IEEE/CVF International Conference on Computer Vision (ICCV), 2017"
   year: 2017
   pdf: "/pdf/2017ICCVREST.pdf"
 
