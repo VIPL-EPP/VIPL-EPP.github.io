@@ -40,6 +40,25 @@ title: Lab Intro
     
     <div class="research-focus">
         <h1>Research Directions</h1>
+        <p class="research-platform-intro">Our research is built around embodied platforms such as guide-assistance systems for the visually impaired, quadruped robots, and humanoid robots, spanning both core research topics and end-to-end system construction.</p>
+        <div class="platform-gallery" aria-label="Embodied platforms">
+            <figure class="platform-item">
+                <img src="images/intro_img/导盲系统.png" alt="Guide-assistance system for the visually impaired" loading="lazy">
+                <figcaption>Guide-Assistance System</figcaption>
+            </figure>
+            <figure class="platform-item">
+                <img src="images/intro_img/机器狗1.jpg" alt="Quadruped robot platform" loading="lazy">
+                <figcaption>Quadruped Robot Platform</figcaption>
+            </figure>
+            <figure class="platform-item">
+                <img src="images/intro_img/机器狗2.png" alt="Quadruped robot system" loading="lazy">
+                <figcaption>Quadruped Robot System</figcaption>
+            </figure>
+            <figure class="platform-item">
+                <img src="images/intro_img/人形机器人.png" alt="Humanoid robot platform" loading="lazy">
+                <figcaption>Humanoid Robot Platform</figcaption>
+            </figure>
+        </div>
         <p>Our main research directions include: embodied perception, multimodal learning, robot autonomous navigation, human-computer interaction, and more. By combining advanced technologies such as deep learning and reinforcement learning, we are committed to solving perception, cognition, and decision-making problems for intelligent agents in the real world.</p>
     </div>
     </div>
@@ -172,6 +191,42 @@ title: Lab Intro
     text-align: left;
 }
 
+.research-platform-intro {
+    margin-bottom: 0.9rem;
+}
+
+.platform-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+    margin: 1rem 0 1.1rem;
+}
+
+.platform-item {
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background: #fafafa;
+}
+
+.platform-item img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    background: #f5f5f5;
+}
+
+.platform-item figcaption {
+    padding: 8px 10px;
+    border-top: 1px solid #dddddd;
+    color: #333333;
+    font-size: 0.9rem;
+    line-height: 1.35;
+    text-align: center;
+}
+
 /* .welcome-message p, .lab-introduction p, .research-focus p {
     font-size: 0.875rem;
     line-height: 1.6;
@@ -211,6 +266,14 @@ title: Lab Intro
     
     .research-highlights {
     grid-template-columns: 1fr;
+    }
+
+    .platform-gallery {
+    grid-template-columns: 1fr;
+    }
+
+    .platform-item img {
+    height: 260px;
     }
 }
 </style>
