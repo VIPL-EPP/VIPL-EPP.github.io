@@ -15,6 +15,22 @@
 #       pages={1--8}
 #     }
 
+- title: "Seeing Like Humans: Task-Driven Token Reduction for Efficient ViT in Robotic Navigation"
+  author: "Hao Liang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Robotics and Automation Letters (RAL), 2026"
+  year: 2026
+  pdf: "/pdf/2026RAL-TDTR.pdf"
+}
+
+- title: "Improving Policy Learning via Language-Guided State Representation in World Models"
+  author: "Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  venue: "IEEE Robotics and Automation Letters (RAL), 2026"
+  year: 2026
+  pdf: "/pdf/2026RAL-lgsr.pdf"
+  code: "https://github.com/VIPL-EPP/LGSR"
+  website: "https://vipl-epp.github.io/lgsr.github.io/"
+}
+
 - title: "Patching the visual ability of large multimodal models by collaborating with small models"
   authors: "Hao Liang, Xiaolong Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "Frontiers of Computer Science (FCS), 2026"
