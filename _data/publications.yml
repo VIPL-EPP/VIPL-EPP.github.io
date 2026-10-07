@@ -16,13 +16,13 @@
 #     }
 
 - title: "Seeing Like Humans: Task-Driven Token Reduction for Efficient ViT in Robotic Navigation"
-  author: "Hao Liang, Meina Kan, Shiguang Shan, Xilin Chen"
+  authors: "Hao Liang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "IEEE Robotics and Automation Letters (RAL), 2026"
   year: 2026
   pdf: "/pdf/2026RAL-TDTR.pdf"
 
 - title: "Improving Policy Learning via Language-Guided State Representation in World Models"
-  author: "Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
+  authors: "Lixuan Zhang, Meina Kan, Shiguang Shan, Xilin Chen"
   venue: "IEEE Robotics and Automation Letters (RAL), 2026"
   year: 2026
   pdf: "/pdf/2026RAL-lgsr.pdf"
